@@ -12,6 +12,7 @@ Blogs:
 - [Classicist vs. Mockist Test-Driven Development](http://codebetter.com/iancooper/2008/02/04/classicist-vs-mockist-test-driven-development/)
 - [Avoid Testing Implementation Details, Test Behaviours](http://codebetter.com/iancooper/2011/10/06/avoid-testing-implementation-details-test-behaviours/)
 - [Mocks for Commands, Stubs for Queries](http://blog.ploeh.dk/2013/10/23/mocks-for-commands-stubs-for-queries/)
+- [An effective testing strategy](https://lostechies.com/jimmybogard/2010/08/25/an-effective-testing-strategy/)
 
 Design:
 - [Commands are Composable](http://blog.ploeh.dk/2011/03/22/CommandsareComposable/)
