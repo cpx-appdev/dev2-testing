@@ -10,10 +10,10 @@ Roadmap
     - NSubstitute
     - Autofixture
   - Testrunner
-   - Resharper
-   - NCrunch
-   - Visual Studio
-   - TDD Grundlagen
+    - Resharper
+    - NCrunch
+    - Visual Studio
+  - TDD Grundlagen
  - Professionalisierung Unit Testing
   - Namenskonventionen
   - Testorganisation
