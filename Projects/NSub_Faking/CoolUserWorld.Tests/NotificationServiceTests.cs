@@ -38,7 +38,7 @@
 
             _sut.NotifyUser(1);
 
-            _logger.Received().Info("User was notified");
+            _logger.Received(1).Info("User was notified");
         }
 
         [Fact(DisplayName = "NotifyUser calls the repository")]
@@ -66,7 +66,7 @@
         {
             _userRepository.GetById(Arg.Any<int>()).ReturnsForAnyArgs(new User { HasActivatedNotification = false });
 
-            _sut.NotifyUser(-1000000000);
+            _sut.NotifyUser(1);
 
             _notifier.DidNotReceive().Notify(Arg.Any<User>());
         }
