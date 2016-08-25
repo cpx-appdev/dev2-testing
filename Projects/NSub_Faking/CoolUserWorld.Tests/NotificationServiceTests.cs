@@ -5,10 +5,10 @@
 
     public class NotificationServiceTests
     {
-        private IUserRepository _userRepository;
-        private INotifier _notifier;
-        private ILogger _logger;
-        private NotificationService _sut;
+        private readonly IUserRepository _userRepository;
+        private readonly INotifier _notifier;
+        private readonly ILogger _logger;
+        private readonly NotificationService _sut;
 
         public NotificationServiceTests()
         {
@@ -33,11 +33,12 @@
         {
             _userRepository.GetById(Arg.Any<int>()).Returns(new User(){HasActivatedNotification = true});
 
-            //Now, i'm a stub
+            //stubbing :)
             _notifier.LogInfoNotifyUser = true;
 
             _sut.NotifyUser(1);
 
+            //mocking?
             _logger.Received(1).Info("User was notified");
         }
 
