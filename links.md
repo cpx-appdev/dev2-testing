@@ -13,6 +13,7 @@ Blogs:
 - [Avoid Testing Implementation Details, Test Behaviours](http://codebetter.com/iancooper/2011/10/06/avoid-testing-implementation-details-test-behaviours/)
 - [Mocks for Commands, Stubs for Queries](http://blog.ploeh.dk/2013/10/23/mocks-for-commands-stubs-for-queries/)
 - [An effective testing strategy](https://lostechies.com/jimmybogard/2010/08/25/an-effective-testing-strategy/)
+- [Test-induced design damage or why TDD is so painful](http://enterprisecraftsmanship.com/2015/06/29/test-induced-design-damage-or-why-tdd-is-so-painful/)
 
 Design:
 - [Commands are Composable](http://blog.ploeh.dk/2011/03/22/CommandsareComposable/)
