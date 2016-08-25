@@ -33,7 +33,6 @@
         {
             _userRepository.GetById(Arg.Any<int>()).Returns(new User(){HasActivatedNotification = true});
 
-            //Now, i'm a stub
             _notifier.LogInfoNotifyUser = true;
 
             _sut.NotifyUser(1);
