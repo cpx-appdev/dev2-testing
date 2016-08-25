@@ -83,6 +83,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CoolUserWorld.Api\CoolUserWorld.Api.csproj">
+      <Project>{C67BA059-354D-439F-BEC6-603B6052808E}</Project>
+      <Name>CoolUserWorld.Api</Name>
+    </ProjectReference>
     <ProjectReference Include="..\NSub_Faking\CoolUserWorld.csproj">
       <Project>{5860aefc-7565-4bbd-a951-fa111e46b277}</Project>
       <Name>CoolUserWorld</Name>
