@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoolUserWorld", "NSub_Faking\CoolUserWorld.csproj", "{5860AEFC-7565-4BBD-A951-FA111E46B277}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoolUserWorld.Tests", "CoolUserWorld.Tests\CoolUserWorld.Tests.csproj", "{4ACC141E-DDDE-4E65-A00B-10542E477328}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoolUserWorld.Api", "CoolUserWorld.Api\CoolUserWorld.Api.csproj", "{C67BA059-354D-439F-BEC6-603B6052808E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{5860AEFC-7565-4BBD-A951-FA111E46B277}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5860AEFC-7565-4BBD-A951-FA111E46B277}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5860AEFC-7565-4BBD-A951-FA111E46B277}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4ACC141E-DDDE-4E65-A00B-10542E477328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4ACC141E-DDDE-4E65-A00B-10542E477328}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4ACC141E-DDDE-4E65-A00B-10542E477328}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4ACC141E-DDDE-4E65-A00B-10542E477328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C67BA059-354D-439F-BEC6-603B6052808E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C67BA059-354D-439F-BEC6-603B6052808E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C67BA059-354D-439F-BEC6-603B6052808E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C67BA059-354D-439F-BEC6-603B6052808E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
