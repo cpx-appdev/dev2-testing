@@ -14,14 +14,16 @@
         private readonly IUserRepository _userRepository;
         private readonly ILogger _logger;
         private readonly UserApiController _sut;
+        private INotifier _notifier;
 
         public UserApiControllerTests()
         {
             _credentialService = Substitute.For<ICredentialService>();
             _userRepository = Substitute.For<IUserRepository>();
             _logger = Substitute.For<ILogger>();
+            _notifier = Substitute.For<INotifier>();
 
-            _sut = new UserApiController(_credentialService, _userRepository, _logger);
+            _sut = new UserApiController(_credentialService, _userRepository, _logger, _notifier);
         }
 
         private void GivenAllValidationCheckAreSuccessful()
@@ -62,28 +64,31 @@
             result.Response.StatusCode.ShouldBe(HttpStatusCode.NotFound);
         }
 
-        [Fact(Skip = "please write the test")]
+        [Fact]
         public void CreateUser_Calls_CredentialService_And_Return_Status_Conflict_if_Account_Exists()
         {
-            false.ShouldBeTrue();
+            _credentialService.UserExists(Arg.Any<User>()).ReturnsForAnyArgs(true);
+            Action act = () => _sut.CreateUser(new User());
+            var result = act.ShouldThrow<HttpResponseException>();
+            result.Response.StatusCode.ShouldBe(HttpStatusCode.Conflict);
         }
 
-        [Fact(Skip = "please write the test")]
+        [Fact]
         public void CreateUser_Dont_Call_Create_User_If_Validation_Checks_Failed()
         {
-            false.ShouldBeTrue();
+            _credentialService.UserExists(Arg.Any<User>()).ReturnsForAnyArgs(true);
+            _credentialService.CheckUserCredentials(Arg.Any<User>()).ReturnsForAnyArgs(false);
+            Should.Throw<HttpResponseException>(() => _sut.CreateUser(new User()));
+            _userRepository.DidNotReceiveWithAnyArgs().CreateUser(null);
         }
 
-        [Fact(Skip = "new Feature--> Please implement")]
+        [Fact]
         public void CreateUser_Should_NotifyUser_With_ActivatedNotification_After_Create()
         {
-            //var user = new User { HasActivatedNotification = true };
-
-            //GivenAllValidationCheckAreSuccessful();
-
-            //_sut.CreateUser(user);
-
-            //_notifier.Received().Notify(user);
+            var user = new User { HasActivatedNotification = true };
+            GivenAllValidationCheckAreSuccessful();
+            _sut.CreateUser(user);
+            _notifier.Received().Notify(user);
         }
     }
 }

@@ -9,12 +9,14 @@
         private readonly ICredentialService _credentialService;
         private readonly IUserRepository _userRepository;
         private readonly ILogger _logger;
+        private readonly INotifier _notifier;
 
-        public UserApiController(ICredentialService credentialService, IUserRepository userRepository, ILogger logger)
+        public UserApiController(ICredentialService credentialService, IUserRepository userRepository, ILogger logger, INotifier notifier)
         {
             _credentialService = credentialService;
             _userRepository = userRepository;
             _logger = logger;
+            _notifier = notifier;
         }
 
         [HttpPost]
@@ -30,6 +32,9 @@
                     throw new HttpResponseException(HttpStatusCode.NotFound);
 
                 _userRepository.CreateUser(user);
+
+                if (user.HasActivatedNotification)
+                    _notifier.Notify(user);
 
                 return new ApiResult { Success = true };
             }
