@@ -62,13 +62,13 @@
             result.Response.StatusCode.ShouldBe(HttpStatusCode.NotFound);
         }
 
-        [Fact]
+        [Fact(Skip = "please write the test")]
         public void CreateUser_Calls_CredentialService_And_Return_Status_Conflict_if_Account_Exists()
         {
             false.ShouldBeTrue();
         }
 
-        [Fact]
+        [Fact(Skip = "please write the test")]
         public void CreateUser_Dont_Call_Create_User_If_Validation_Checks_Failed()
         {
             false.ShouldBeTrue();
