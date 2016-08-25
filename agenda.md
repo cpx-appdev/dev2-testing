@@ -1,3 +1,10 @@
+
+1.9.16
+- Agenda:
+  - Warum sollen Stubs gegenüber Mocks bevorzugt werden (Alex) ?
+  - Live-Bsp Integrationstest S2Go (Matthias)
+  - Recherche Sut-Factory (Automocking) --> Daniel
+  
 25.08.2016
 - Agenda
   - Wiederholung Time-boxed
