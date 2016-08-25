@@ -15,7 +15,6 @@
             _credentialService = credentialService;
             _userRepository = userRepository;
             _logger = logger;
-            _notifier = notifier;
         }
 
         [HttpPost]
