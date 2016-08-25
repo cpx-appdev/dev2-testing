@@ -3,7 +3,7 @@
 - Agenda:
   - Warum sollen Stubs gegenüber Mocks bevorzugt werden (Alex) ?
   - Live-Bsp Integrationstest S2Go (Matthias)
-  - Recherche Sut-Factory (Automocking) --> Daniel
+  - Recherche Sut-Factory (Automocking) --> Daniel, Thomas
   
 25.08.2016
 - Agenda
