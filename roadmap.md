@@ -1,6 +1,6 @@
 Roadmap
 
- - *Grundlagen Unit Testing*
+ - **Grundlagen Unit Testing**
   - Definition Unit Test
   - Abgrenzung zu Integration Tests
   - Fakes (Stubs, Mocks)
@@ -14,7 +14,7 @@ Roadmap
     - NCrunch
     - Visual Studio
   - TDD Grundlagen
- - *Professionalisierung Unit Testing*
+ - **Professionalisierung Unit Testing**
   - Namenskonventionen
   - Testorganisation
   - Humble Object
@@ -24,8 +24,8 @@ Roadmap
   - Datengetriebene Tests
   - Datenbankintegrationstests
   - Continious Integration
-- *Design*
-  - SOLI*D* (Depdency Inversion Principle)
+- **Design**
+  - SOLI**D** (Depdency Inversion Principle)
 
 Orthogonal
 - Fragen
