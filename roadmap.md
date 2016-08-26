@@ -26,6 +26,12 @@ Roadmap
   - Continious Integration
  - **Design**
   - SOLI**D** (Depdency Inversion Principle)
+  - Interfaces 
+    - Header Interface
+    - Marker Interface
+    - Role Interface
+    - Shallow Interface / Leaky Abstraction
+    - Stable Interface
 
 Orthogonal
 - Fragen
