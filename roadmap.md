@@ -24,7 +24,7 @@ Roadmap
   - Datengetriebene Tests
   - Datenbankintegrationstests
   - Continious Integration
-- **Design**
+ - **Design**
   - SOLI**D** (Depdency Inversion Principle)
 
 Orthogonal
