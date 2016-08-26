@@ -32,6 +32,7 @@ Roadmap
     - Role Interface
     - Shallow Interface / Leaky Abstraction
     - Stable Interface
+  - Flow Design
 
 Orthogonal
 - Fragen
