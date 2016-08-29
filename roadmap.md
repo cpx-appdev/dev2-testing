@@ -20,6 +20,7 @@ Roadmap
   - Testorganisation
   - Humble Object
   - Automocking mit AutoFixture
+  - Test Isolation (Gefahr von Statics)
   - Builder Pattern
   - Testing von Equals ("Equality pollution")
   - Datengetriebene Tests
