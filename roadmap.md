@@ -34,7 +34,7 @@ Roadmap
     - Role Interface
     - Shallow Interface / Leaky Abstraction
     - Stable Interface
-  - Flow Design
+  - Flow Design (Principle of Mutual Oblivion, ...)
 
 ### Orthogonal
 - Fragen
