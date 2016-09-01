@@ -1,3 +1,3 @@
 Wieso soll man beim Faken mit bspw. NSubstitute ...WithAnyArgs nutzen?
-Wieso soll lieber Stubs statt Mocks nutzen?
+Wieso soll man lieber Stubs statt Mocks nutzen?
 Wieso unterscheidet man Stubs von Mocks überhaupt noch?
