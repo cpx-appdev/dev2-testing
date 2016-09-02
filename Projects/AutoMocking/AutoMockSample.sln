@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMockSample", "AutoMockSample\AutoMockSample.csproj", "{BEE5597C-91ED-4188-AAC2-BD02DBB3CE3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMockSample.Tests", "AutoMockSample.Tests\AutoMockSample.Tests.csproj", "{F3A5917D-27A9-475C-BF6E-158DBAD35F04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEE5597C-91ED-4188-AAC2-BD02DBB3CE3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEE5597C-91ED-4188-AAC2-BD02DBB3CE3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEE5597C-91ED-4188-AAC2-BD02DBB3CE3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE5597C-91ED-4188-AAC2-BD02DBB3CE3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3A5917D-27A9-475C-BF6E-158DBAD35F04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3A5917D-27A9-475C-BF6E-158DBAD35F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3A5917D-27A9-475C-BF6E-158DBAD35F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3A5917D-27A9-475C-BF6E-158DBAD35F04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
