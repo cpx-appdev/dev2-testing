@@ -11,3 +11,13 @@ Interaktionsbasiertes Testen
 Command
 Query
 CQS (Command Query Separation)
+Kopplung
+Kohäsion
+SOLID
+SRP (Single Responsibility Principle)
+OCP (Open Closed Principle)
+LSP (Liskovk Substitution Principle)
+ISP (Interface Segragation Principle)
+DIP (Dependency Inversion Principle)
+Mediator / Dispatcher
+Decorator
