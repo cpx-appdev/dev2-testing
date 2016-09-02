@@ -1,4 +1,7 @@
-﻿namespace Mocking_Stubbing
+﻿using NSubstitute;
+using Xunit;
+
+namespace Mocking_Stubbing
 {
     public class Service
     {
@@ -24,6 +27,27 @@
             if (customer.IsGoldCustomer)
                 return 90;
             return 0;
+        }
+
+        public Customer GetCustomer(int id)
+        {
+            return _repository.GetById(id);
+        }
+    }
+
+    public class BadServiceTests
+    {
+        [Theory]
+        [InlineData(1234)]
+        [InlineData(9876)]
+        public void GetUserCallsRepositoryWithCorrectValue(int id)
+        {
+            var customerRepository = Substitute.For<ICustomerRepository>();
+            var service = new Service(customerRepository);
+
+            var customer = service.GetCustomer(id);
+
+            customerRepository.Received(1).GetById(id);
         }
     }
 }
