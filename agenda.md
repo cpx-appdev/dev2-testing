@@ -1,5 +1,9 @@
 8.9.16
-- Schnittstellen Bedienungstests (Matthias, Andreas)
+- Mögliche Tests für SMR (Review von der Woche)
+  - Ergebnisseite
+  - Personendetailsmapper
+  - Workersteps
+- Neuer Frameworkstandard für SMR  
 
 2.9.16
 - Agenda:
