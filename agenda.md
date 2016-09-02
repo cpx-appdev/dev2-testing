@@ -1,5 +1,5 @@
 
-1.9.16
+2.9.16
 - Agenda:
   - Warum sollen Stubs gegenüber Mocks bevorzugt werden (Alex) ?
   - Live-Bsp Integrationstest S2Go (Matthias)
