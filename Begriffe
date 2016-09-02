@@ -1,10 +1,13 @@
 Unit Test
+Externe Abhängigkeiten
 Integrationstest
 SUT (System Under Test)
+Theory / Fact
 Fake/Test Double
 Mock
 Stub
-Theory / Fact
 Statusbasiertes Testen
 Interaktionsbasiertes Testen
-Externe Abhängigkeiten
+Command
+Query
+CQS (Command Query Separation)
