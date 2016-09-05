@@ -1,4 +1,5 @@
 ﻿using NSubstitute;
+using Shouldly;
 using Xunit;
 
 namespace Mocking_Stubbing
@@ -29,25 +30,37 @@ namespace Mocking_Stubbing
             return 0;
         }
 
-        public Customer GetCustomer(int id)
+        public C GetCustomer(int id)
         {
-            return _repository.GetById(id);
+            var byId = _repository.GetById(id);
+            return new C { Id = byId.Id, Name = byId.Name };
         }
     }
 
-    public class BadServiceTests
+    public class C
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+    }
+
+    // Use stubs for queries and NOT mocks!
+    public class ServiceTests
     {
         [Theory]
-        [InlineData(1234)]
-        [InlineData(9876)]
-        public void GetUserCallsRepositoryWithCorrectValue(int id)
+        [InlineData(1234, "Foo")]
+        [InlineData(9876, "Boo")]
+        public void GetUserCallsRepositoryWithCorrectValue(int id, string name)
         {
             var customerRepository = Substitute.For<ICustomerRepository>();
             var service = new Service(customerRepository);
+            customerRepository.GetById(id).Returns(new Customer { Id = id, Name = name });
 
-            var customer = service.GetCustomer(id);
+            var expected = new C { Id = id, Name = name };
 
-            customerRepository.Received(1).GetById(id);
+            var result = service.GetCustomer(id);
+
+            result.Id.ShouldBe(expected.Id);
+            result.Name.ShouldBe(expected.Name);
         }
     }
 }
