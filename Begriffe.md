@@ -1,23 +1,23 @@
-Unit Test
-Externe Abhängigkeiten
-Integrationstest
-SUT (System Under Test)
-Theory / Fact
-Fake/Test Double
-Mock
-Stub
-Statusbasiertes Testen
-Interaktionsbasiertes Testen
-Command
-Query
-CQS (Command Query Separation)
-Kopplung
-Kohäsion
-SOLID
-SRP (Single Responsibility Principle)
-OCP (Open Closed Principle)
-LSP (Liskovk Substitution Principle)
-ISP (Interface Segragation Principle)
-DIP (Dependency Inversion Principle)
-Mediator / Dispatcher
-Decorator
+- Unit Test
+- Externe Abhängigkeiten
+- Integrationstest
+- SUT (System Under Test)
+- Theory / Fact
+- Fake/Test Double
+- Mock
+- Stub
+- Statusbasiertes Testen
+- Interaktionsbasiertes Testen
+- Command
+- Query
+- CQS (Command Query Separation)
+- Kopplung
+- Kohäsion
+- SOLID
+- SRP (Single Responsibility Principle)
+- OCP (Open Closed Principle)
+- LSP (Liskovk Substitution Principle)
+- ISP (Interface Segragation Principle)
+- DIP (Dependency Inversion Principle)
+- Mediator / Dispatcher
+- Decorator
