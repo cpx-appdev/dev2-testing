@@ -1,3 +1,7 @@
+15.09.16
+- Jana PersonenDetails Mapper Refactoring / Tests
+- Alex SperrParser Test Refactoring / Integration / Tests
+
 8.9.16
 - Mögliche Tests für SMR (Review von der Woche)
   - Ergebnisseite
