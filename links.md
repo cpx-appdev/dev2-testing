@@ -16,7 +16,8 @@ Blogs:
 - [Test-induced design damage or why TDD is so painful](http://enterprisecraftsmanship.com/2015/06/29/test-induced-design-damage-or-why-tdd-is-so-painful/)
 - [Best and Worst Practices for Mock Objects](http://codebetter.com/jeremymiller/2006/01/10/best-and-worst-practices-for-mock-objects/)
 - [Using Mocks or Stubs, Revisited](https://jeremydmiller.com/2016/05/05/using-mocks-or-stubs-revisited/)
-
+- ['Classic' or  'London school' of TDD?](http://codemanship.co.uk/parlezuml/blog/?postid=987)
+- [Test Automation - Who Should be Involved?](https://www.thoughtworks.com/de/insights/blog/test-automation-who-should-be-involved)
 Design:
 - [Commands are Composable](http://blog.ploeh.dk/2011/03/22/CommandsareComposable/)
 - [Holistic Abstractions](http://scrapbook.qujck.com/holistic-abstractions-take-2/)
