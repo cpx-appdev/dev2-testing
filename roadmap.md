@@ -19,6 +19,7 @@ Roadmap
   - Namenskonventionen
   - Testorganisation
   - Humble Object
+  - Testcase Class per Class und Testcase Class per Fixture
   - Automocking mit AutoFixture
   - Test Isolation (Gefahr von Statics)
   - Builder Pattern
