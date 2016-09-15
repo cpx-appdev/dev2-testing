@@ -1,6 +1,7 @@
 22.09.16
 - Andreas M. Datengetriebene Tests (Testfall Beschreibung mit Xunit Theorien)
 - Jana PersonenDetails Mapper Refactoring / Tests
+- Namenskonventionen (Klassennamen und Methodenname im Testfall?)
 
 15.09.16
 - Alex SperrParser Test Refactoring / Integration / Tests
