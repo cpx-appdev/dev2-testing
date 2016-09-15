@@ -1,8 +1,8 @@
 22.09.16
 - Andreas M. Datengetriebene Tests (Testfall Beschreibung mit Xunit Theorien)
+- Jana PersonenDetails Mapper Refactoring / Tests
 
 15.09.16
-- Jana PersonenDetails Mapper Refactoring / Tests
 - Alex SperrParser Test Refactoring / Integration / Tests
 - Organisation der Roadmap und Agenda (Andreas) 
   - Bsp für Agenda Orga: 1h Projekterfahren, 1h Roadmap weiter verfolgen
