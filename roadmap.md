@@ -42,3 +42,9 @@ Roadmap
 - Praxis Sessions
 - Feedbackrunden
 - Wiederholungen
+ 
+### Ideen
+- Videos anschauen (Pluralsight, NDC, ...)
+- Externe Teammitglieder einladen (Matthias Z.)
+- Coding Dojos, Katas
+
