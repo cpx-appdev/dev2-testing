@@ -21,3 +21,4 @@
 - DIP (Dependency Inversion Principle)
 - Mediator / Dispatcher
 - Decorator
+- AAA Pattern
