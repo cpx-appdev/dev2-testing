@@ -22,3 +22,5 @@
 - Mediator / Dispatcher
 - Decorator
 - AAA Pattern
+- Cohesion
+- Coupling
