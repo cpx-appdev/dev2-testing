@@ -20,6 +20,7 @@ Blogs:
 - [Test Automation - Who Should be Involved?](https://www.thoughtworks.com/de/insights/blog/test-automation-who-should-be-involved)
 - [Getting value out of your unit tests](https://lostechies.com/jimmybogard/2008/12/19/getting-value-out-of-your-unit-tests/)
 - [7 Popular Unit Test Naming Conventions](https://dzone.com/articles/7-popular-unit-test-naming)
+- [Cohesion and Coupling: the difference](http://enterprisecraftsmanship.com/2015/09/02/cohesion-coupling-difference/)
 
 Design:
 - [Commands are Composable](http://blog.ploeh.dk/2011/03/22/CommandsareComposable/)
