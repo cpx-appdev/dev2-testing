@@ -1,3 +1,6 @@
+29.09.16
+- Coding Dojo (Paare zu zwei Personen), Aufgabenstellung erstellt TK
+
 22.09.16
 - Andreas M. Datengetriebene Tests (Testfall Beschreibung mit Xunit Theorien)
 - Jana PersonenDetails Mapper Refactoring / Tests
