@@ -1,9 +1,9 @@
 29.09.16
 - Coding Dojo (Paare zu zwei Personen), Aufgabenstellung erstellt TK
+- Jana PersonenDetails Mapper Refactoring / Tests
 
 22.09.16
-- Andreas M. Datengetriebene Tests (Testfall Beschreibung mit Xunit Theorien)
-- Jana PersonenDetails Mapper Refactoring / Tests
+- Andreas M. datengetriebene Tests (Testfall-Beschreibung mit xunit-Theorien)
 - Namenskonventionen (Klassennamen und Methodenname im Testfall?)
 
 15.09.16
