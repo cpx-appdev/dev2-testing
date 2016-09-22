@@ -2,8 +2,9 @@
 - Jana PersonenDetails Mapper Refactoring / Tests
 - Alex Xunit Testnamen unter Kontrolle bringen
 
-29.09.16
+30.09.16
 - Coding Dojo (Paare zu zwei Personen), Aufgabenstellung erstellt TK
+- HA ;): Erfahrungen sammeln bzgl. exakter Methodenname in Test-Methode oder eher feature-bezogen (annäherndes Verb)
 
 22.09.16
 - Andreas M. datengetriebene Tests (Testfall-Beschreibung mit xunit-Theorien)
