@@ -1,5 +1,6 @@
 06.10.16
 - Jana PersonenDetails Mapper Refactoring / Tests
+- Alex Xunit Testnamen unter Kontrolle bringen
 
 29.09.16
 - Coding Dojo (Paare zu zwei Personen), Aufgabenstellung erstellt TK
