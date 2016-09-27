@@ -21,6 +21,7 @@ Blogs:
 - [Getting value out of your unit tests](https://lostechies.com/jimmybogard/2008/12/19/getting-value-out-of-your-unit-tests/)
 - [7 Popular Unit Test Naming Conventions](https://dzone.com/articles/7-popular-unit-test-naming)
 - [Cohesion and Coupling: the difference](http://enterprisecraftsmanship.com/2015/09/02/cohesion-coupling-difference/)
+- [My Opinions on Data Setup for Functional Tests](https://jeremydmiller.com/2013/01/26/my-opinions-on-data-setup-for-functional-tests/)
 
 Design:
 - [Commands are Composable](http://blog.ploeh.dk/2011/03/22/CommandsareComposable/)
