@@ -1,5 +1,5 @@
 06.10.16
-- Jana PersonenDetails Mapper Refactoring / Tests
+- Alex PersonenDetails Mapper Refactoring / Tests
 - Alex Xunit Testnamen unter Kontrolle bringen (https://github.com/Rookian/XunitCustomDisplayName)
 
 30.09.16
