@@ -2,6 +2,7 @@ Videos
 - [Jimmy Bogard: Holistic testing - Slow Tests & Fast Tests](https://vimeo.com/68390508)*
 - [Ian Cooper: TDD, where did it all go wrong](https://vimeo.com/68375232)*
 - [SOLID Architecture in Slices not Layers - Jimmy Bogard](https://vimeo.com/album/3874231/video/131633177)*
+- [Keynote: 8 Lines of Code ](https://www.infoq.com/presentations/8-lines-code-refactoring)
 
 Blogs:
 - [Automated Testing - Jeremy D. Miller](https://jeremydmiller.com/category/automated-testing/)
