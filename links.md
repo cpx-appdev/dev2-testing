@@ -3,6 +3,7 @@ Videos
 - [Ian Cooper: TDD, where did it all go wrong](https://vimeo.com/68375232)*
 - [SOLID Architecture in Slices not Layers - Jimmy Bogard](https://vimeo.com/album/3874231/video/131633177)*
 - [Greg Young discusses eight lines of very common code finding in them massive numbers of dependencies and difficulties, looking for ways to get rid of them.](https://www.infoq.com/presentations/8-lines-code-refactoring)
+- [Events Are Not Just for Notifications](https://www.infoq.com/presentations/Events-Are-Not-Just-for-Notifications)
 
 Blogs:
 - [Automated Testing - Jeremy D. Miller](https://jeremydmiller.com/category/automated-testing/)
