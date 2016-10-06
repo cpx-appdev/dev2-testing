@@ -1,5 +1,10 @@
+28.10.16
+- Jana FlowDesign (evtl. Serie)
+
 21.10.16
 - Alex: ToString in TestData an Bsp. in Repo einfügen
+- Projektorganisation (Projekt.Tests, Projekt.UnitTests, ... Attribute)
+ - Alle mit Argumenten vorbereiten
 
 06.10.16
 - Alex PersonenDetails Mapper Refactoring / Tests
