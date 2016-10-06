@@ -1,3 +1,6 @@
+21.10.16
+- Alex: ToString in TestData an Bsp. in Repo einfügen
+
 06.10.16
 - Alex PersonenDetails Mapper Refactoring / Tests
 - Alex Xunit Testnamen unter Kontrolle bringen (https://github.com/Rookian/XunitCustomDisplayName)
