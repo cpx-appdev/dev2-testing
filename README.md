@@ -14,5 +14,5 @@ Dieses Repository beinhaltet Informationen, Quellcodes und Roadmap zu teamintern
 * Durchführen von Dojos, Katas und Code Reviews zu internen Projekten oder konstruierten Testbeispielen
 
 
-Für weiterführende Informationen verweisen wir auf das [Wiki](https://github.com/tklepzig/dev2-testing/wiki) und die [Roadmap](https://github.com/tklepzig/dev2-testing/blob/master/roadmap.md). 
-Die Inhalte der Meetings sind in der [Agenda](https://github.com/tklepzig/dev2-testing/blob/master/agenda.md) nachzulesen.
+Für weiterführende Informationen verweisen wir auf das [Wiki](https://github.com/cpx-appdev/dev2-testing/wiki) und die [Roadmap](https://github.com/cpx-appdev/dev2-testing/blob/master/roadmap.md). 
+Die Inhalte der Meetings sind in der [Agenda](https://github.com/cpx-appdev/dev2-testing/blob/master/agenda.md) nachzulesen.
