@@ -1,10 +1,8 @@
 # dev2-testing
-=======
 
 Dieses Repository beinhaltet Informationen, Quellcodes und Roadmap zu teaminternen Professionalisierung von AppDev2. Bei Fragen hierzu, bitte persönlich auf die Teammitglieder zugehen.
 
 ## Ziel der Professionalisierung
------
 
 * Aufbau von Wissen zum Thema automatisiertes Testen
   * Unit Tests, Integrationstest, UI-Tests
