@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpellChecker.UI", "SpellChecker\SpellChecker.UI.csproj", "{8A491621-9471-4E12-8633-5D6AEEB13147}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpellChecker.Test", "SpellChecker_Tests\SpellChecker.Test.csproj", "{8C8A747D-7B85-4274-A0AD-02F05A850140}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpellChecker.Resourcen", "SpellChecker.Resourcen\SpellChecker.Resourcen.csproj", "{AF2D49C8-E46C-4FCC-B81D-41D05CD47E7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A491621-9471-4E12-8633-5D6AEEB13147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A491621-9471-4E12-8633-5D6AEEB13147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A491621-9471-4E12-8633-5D6AEEB13147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A491621-9471-4E12-8633-5D6AEEB13147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C8A747D-7B85-4274-A0AD-02F05A850140}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C8A747D-7B85-4274-A0AD-02F05A850140}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C8A747D-7B85-4274-A0AD-02F05A850140}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C8A747D-7B85-4274-A0AD-02F05A850140}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF2D49C8-E46C-4FCC-B81D-41D05CD47E7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF2D49C8-E46C-4FCC-B81D-41D05CD47E7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF2D49C8-E46C-4FCC-B81D-41D05CD47E7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF2D49C8-E46C-4FCC-B81D-41D05CD47E7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
