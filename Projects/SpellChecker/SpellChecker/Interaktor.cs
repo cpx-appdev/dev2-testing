@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using SpellChecker.Resourcen;
 
 namespace SpellChecker.UI
 {
@@ -8,7 +9,11 @@ namespace SpellChecker.UI
     {
         public static IEnumerable<string> Prüfen(string text)
         {
-            return Enumerable.Empty<string>();
+            var aufgeteilterText = TextInWörterZerleger.TextInWoerterZerlegen(text);
+            var wörterbuchInhalt = WörterbuchProvider.WörterbuchAuslesen();
+
+            return TextAnalyse.FindeFalscheWörter(aufgeteilterText, wörterbuchInhalt);
+
         }
     }
 }

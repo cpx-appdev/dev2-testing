@@ -72,8 +72,12 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
+    <Compile Include="TextAnalyseTests.cs" />
+    <Compile Include="WörterbuchProviderTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="InteraktorTests.cs" />
+    <Compile Include="TextInWörterZerlegerTests.cs" />
+    <Compile Include="WörterErmittlerTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SpellChecker.Resourcen\SpellChecker.Resourcen.csproj">
