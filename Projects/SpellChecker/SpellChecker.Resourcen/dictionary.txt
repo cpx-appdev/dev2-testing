@@ -1,4 +1,4 @@
-﻿dies,diese
+﻿dies,~e,~er,~es
 der
 vom
 Apfel

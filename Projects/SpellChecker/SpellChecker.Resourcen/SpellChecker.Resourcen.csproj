@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DateiLeser.cs" />
+    <Compile Include="InvalidWörterbuchException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TextAnalyse.cs" />
     <Compile Include="TextInWörterZerleger.cs" />
