@@ -4,11 +4,12 @@ using System.Linq;
 namespace SpellChecker.Resourcen
 {
     public class TextAnalyse
-
     {
-        public static IEnumerable<string> FindeFalscheWörter(string[] eingabeText, HashSet<string> wörterbuch)
+        public static EingabeWort[] FindeFalscheWörter(EingabeWort[] eingabeWörter, HashSet<string> wörterbuch)
         {
-            return eingabeText.Except(wörterbuch);
+            return eingabeWörter
+                .Where(eingabeWort => !wörterbuch.Contains(eingabeWort.Text))
+                .ToArray();
         }
     }
 }

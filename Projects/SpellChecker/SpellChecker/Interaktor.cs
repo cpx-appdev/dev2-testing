@@ -12,8 +12,8 @@ namespace SpellChecker.UI
             var aufgeteilterText = TextInWörterZerleger.TextInWoerterZerlegen(text);
             var wörterbuchInhalt = WörterbuchProvider.WörterbuchAuslesen();
 
-            return TextAnalyse.FindeFalscheWörter(aufgeteilterText, wörterbuchInhalt);
-
-        }
+            var falscheWorte = TextAnalyse.FindeFalscheWörter(aufgeteilterText, wörterbuchInhalt);
+            return WortAufbereiter.Ausführen(falscheWorte);
+        }   
     }
 }

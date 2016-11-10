@@ -15,10 +15,7 @@ namespace SpellChecker.Test
             // Assert
             wörterbuch.ShouldBeEquivalentTo(new[]
             {
-                "dies", "diese",
-                "lorem",
-                "ipsum",
-                "dolor"
+                "Ich", "bin", "ein"
             });
         }
     }

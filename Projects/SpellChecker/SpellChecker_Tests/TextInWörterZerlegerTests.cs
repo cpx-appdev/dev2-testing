@@ -9,15 +9,17 @@ namespace SpellChecker.Test
 {
     public class TextInWörterZerlegerTests
     {
-
-
         [Fact]
         public void Zerlege_Text_Korrekt_In_Wörter()
         {
-            var wörter = TextInWörterZerleger.TextInWoerterZerlegen("Hallo das ist\nein\r\nTest.");
+            var wörter = TextInWörterZerleger.TextInWoerterZerlegen("Hallo Welt\nHallo");
 
-            
-            wörter.ShouldBeEquivalentTo(new [] { "Hallo", "das", "ist", "ein", "Test" });
+            wörter.ShouldBeEquivalentTo(new[]
+            {
+                new EingabeWort ("Hallo", 0, 0 ),
+                new EingabeWort ("Welt", 0, 6 ),
+                new EingabeWort ("Hallo",1, 0 )
+            });
         }
     }
 }
