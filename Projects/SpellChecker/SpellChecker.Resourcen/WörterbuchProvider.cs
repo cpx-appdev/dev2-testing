@@ -2,12 +2,25 @@ using System.Collections.Generic;
 
 namespace SpellChecker.Resourcen
 {
-    public class WörterbuchProvider
+    public interface IWörterbuchProvider
     {
-        public static HashSet<string> WörterbuchAuslesen()
+        HashSet<string> WörterbuchAuslesen();
+    }
+
+    public class WörterbuchProvider : IWörterbuchProvider
+    {
+        private readonly IDateiLeser _dateiLeser;
+        private readonly IWörterErmittler _wörterErmittler;
+
+        public WörterbuchProvider(IDateiLeser dateiLeser, IWörterErmittler wörterErmittler)
         {
-            var zeilen = DateiLeser.DateiLesen();
-            return WörterErmittler.WörterErmitteln(zeilen);
+            _dateiLeser = dateiLeser;
+            _wörterErmittler = wörterErmittler;
+        }
+        public HashSet<string> WörterbuchAuslesen()
+        {
+            var zeilen = _dateiLeser.DateiLesen();
+            return _wörterErmittler.WörterErmitteln(zeilen);
         }
     }
 }

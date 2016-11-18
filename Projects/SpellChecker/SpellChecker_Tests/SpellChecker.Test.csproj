@@ -72,6 +72,7 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
+    <Compile Include="FakeDateiLeser.cs" />
     <Compile Include="TextAnalyseTests.cs" />
     <Compile Include="WortAufbereiterTests.cs" />
     <Compile Include="WörterbuchProviderTests.cs" />

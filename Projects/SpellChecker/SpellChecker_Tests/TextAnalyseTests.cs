@@ -19,7 +19,7 @@ namespace SpellChecker.Test
             var wörterbuch = new HashSet<string> {"s1"};
             
             // Act
-            var result = TextAnalyse.FindeFalscheWörter(eingabeText, wörterbuch);
+            var result = new TextAnalyse().FindeFalscheWörter(eingabeText, wörterbuch);
 
             // Assert
             result.ShouldBeEquivalentTo(new[] { eingabeText[1] });

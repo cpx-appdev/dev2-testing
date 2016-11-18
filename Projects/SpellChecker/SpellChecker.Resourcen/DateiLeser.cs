@@ -2,9 +2,14 @@ using System.IO;
 
 namespace SpellChecker.Resourcen
 {
-    public class DateiLeser
+    public interface IDateiLeser
     {
-        public static string[] DateiLesen()
+        string[] DateiLesen();
+    }
+
+    public class DateiLeser : IDateiLeser
+    {
+        public string[] DateiLesen()
         {
             return File.ReadAllLines("dictionary.txt");
         }

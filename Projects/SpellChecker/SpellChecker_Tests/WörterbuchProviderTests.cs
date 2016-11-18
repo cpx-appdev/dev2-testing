@@ -10,7 +10,7 @@ namespace SpellChecker.Test
         public void Prüfen_findet_falsche_Wörter()
         {
             // Act
-            var wörterbuch = WörterbuchProvider.WörterbuchAuslesen();
+            var wörterbuch = new WörterbuchProvider(new FakeDateiLeser("Ich", "bin", "ein"), new WörterErmittler()).WörterbuchAuslesen();
 
             // Assert
             wörterbuch.ShouldBeEquivalentTo(new[]

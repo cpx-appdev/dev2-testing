@@ -4,9 +4,14 @@ using System.Linq;
 
 namespace SpellChecker.Resourcen
 {
-    public class WörterErmittler
+    public interface IWörterErmittler
     {
-        public static HashSet<string> WörterErmitteln(string[] zeilen)
+        HashSet<string> WörterErmitteln(string[] zeilen);
+    }
+
+    public class WörterErmittler : IWörterErmittler
+    {
+        public HashSet<string> WörterErmitteln(string[] zeilen)
         {
             var wörterHashSet = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
             int zeilenNummer = 0;

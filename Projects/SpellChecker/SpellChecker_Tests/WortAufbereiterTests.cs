@@ -22,7 +22,7 @@ namespace SpellChecker.Test
                 new EingabeWort("Hallo", 1, 0)
             };
 
-            var formatierteWörter = WortAufbereiter.Ausführen(wörter);
+            var formatierteWörter = new WortAufbereiter().Ausführen(wörter);
 
             formatierteWörter.ShouldBeEquivalentTo(new [] {"Hallo [1,1;2,1]", "Welt [1,7]"});
         }

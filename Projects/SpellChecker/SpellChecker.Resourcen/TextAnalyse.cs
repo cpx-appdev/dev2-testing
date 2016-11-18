@@ -3,9 +3,14 @@ using System.Linq;
 
 namespace SpellChecker.Resourcen
 {
-    public class TextAnalyse
+    public interface ITextAnalyse
     {
-        public static EingabeWort[] FindeFalscheWörter(EingabeWort[] eingabeWörter, HashSet<string> wörterbuch)
+        EingabeWort[] FindeFalscheWörter(EingabeWort[] eingabeWörter, HashSet<string> wörterbuch);
+    }
+
+    public class TextAnalyse : ITextAnalyse
+    {
+        public EingabeWort[] FindeFalscheWörter(EingabeWort[] eingabeWörter, HashSet<string> wörterbuch)
         {
             return eingabeWörter
                 .Where(eingabeWort => !wörterbuch.Contains(eingabeWort.Text))

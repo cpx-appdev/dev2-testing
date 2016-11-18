@@ -6,9 +6,14 @@ using System.Threading.Tasks;
 
 namespace SpellChecker.Resourcen
 {
-    public class WortAufbereiter
+    public interface IWortAufbereiter
     {
-        public static string[] Ausführen(EingabeWort[] wörter)
+        string[] Ausführen(EingabeWort[] wörter);
+    }
+
+    public class WortAufbereiter : IWortAufbereiter
+    {
+        public  string[] Ausführen(EingabeWort[] wörter)
         {
             var formatierteWorte = new List<string>();
 

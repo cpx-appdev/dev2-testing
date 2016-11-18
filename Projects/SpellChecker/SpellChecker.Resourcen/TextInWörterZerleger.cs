@@ -4,9 +4,14 @@ using System.Linq;
 
 namespace SpellChecker.Resourcen
 {
-    public class TextInWörterZerleger
+    public interface ITextInWörterZerleger
     {
-        public static EingabeWort[] TextInWoerterZerlegen(string text)
+        EingabeWort[] TextInWoerterZerlegen(string text);
+    }
+
+    public class TextInWörterZerleger : ITextInWörterZerleger
+    {
+        public EingabeWort[] TextInWoerterZerlegen(string text)
         {
             var eingabeWörter = new List<EingabeWort>();
             var zeilen = text.Split(new[] { "\r\n", "\n" }, StringSplitOptions.None);

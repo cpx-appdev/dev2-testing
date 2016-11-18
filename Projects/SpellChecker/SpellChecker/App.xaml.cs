@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using SpellChecker.Resourcen;
 
 namespace SpellChecker.UI
 {
@@ -12,7 +13,11 @@ namespace SpellChecker.UI
             base.OnStartup(e);
 
             var dialog = new RechtschreibPruefungDialog();
-            dialog.RechtschreibprüfungStarten += () => dialog.FehlerhafteWörterSetzen(Interaktor.Prüfen(dialog.Eingabe));
+
+            var interaktor = new Interaktor(new TextInWörterZerleger(), new WörterbuchProvider(new DateiLeser(), new WörterErmittler()), new TextAnalyse(),
+                new WortAufbereiter());
+
+            dialog.RechtschreibprüfungStarten += () => dialog.FehlerhafteWörterSetzen(interaktor.Prüfen(dialog.Eingabe));
 
             dialog.Show();
         }

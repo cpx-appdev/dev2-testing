@@ -12,7 +12,7 @@ namespace SpellChecker.Test
         [Fact]
         public void Zerlege_Text_Korrekt_In_Wörter()
         {
-            var wörter = TextInWörterZerleger.TextInWoerterZerlegen("Hallo Welt\nHallo");
+            var wörter = new TextInWörterZerleger().TextInWoerterZerlegen("Hallo Welt\nHallo");
 
             wörter.ShouldBeEquivalentTo(new[]
             {

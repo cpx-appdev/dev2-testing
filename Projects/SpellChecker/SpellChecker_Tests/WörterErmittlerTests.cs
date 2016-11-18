@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using FluentAssertions;
 using FluentAssertions.Execution;
 using SpellChecker.Resourcen;
@@ -15,7 +12,7 @@ namespace SpellChecker.Test
         [Fact]
         public void Zerteilt_Text_Korrekt_In_Wörter()
         {
-            var wörter = WörterErmittler.WörterErmitteln(new[] {"s1,s2", "s3", "s3", "s3, S3"});
+            var wörter = new WörterErmittler().WörterErmitteln(new[] {"s1,s2", "s3", "s3", "s3, S3"});
 
             wörter.ShouldBeEquivalentTo(new[] {"s1", "s2", "s3"});
         }
@@ -23,7 +20,7 @@ namespace SpellChecker.Test
         [Fact]
         public void Wörter_mit_Tilde_werden_korrekt_gebildet()
         {
-            var wörter = WörterErmittler.WörterErmitteln(new[] {"dies,~e,~er,Baum,~es"});
+            var wörter = new WörterErmittler().WörterErmitteln(new[] {"dies,~e,~er,Baum,~es"});
 
             wörter.ShouldBeEquivalentTo(new[] {"dies", "diese", "dieser", "Baum", "dieses"});
         }
@@ -31,7 +28,7 @@ namespace SpellChecker.Test
         [Fact]
         public void Wörter_mit_Leerzeichen_werden_gekürzt_sein()
         {
-            var wörter = WörterErmittler.WörterErmitteln(new[] { " dies, ~er " });
+            var wörter = new WörterErmittler().WörterErmitteln(new[] { " dies, ~er " });
 
             wörter.ShouldBeEquivalentTo(new[] { "dies", "dieser" });
         }
@@ -39,7 +36,7 @@ namespace SpellChecker.Test
         [Fact]
         public void Wenn_das_erste_Wort_einer_Zeile_mit_einer_Tilde_beginnt_soll_Exception_geworfen_werden()
         {
-            Action action = () => WörterErmittler.WörterErmitteln(new[] {"~dies"});
+            Action action = () => new WörterErmittler().WörterErmitteln(new[] {"~dies"});
 
             action.ShouldThrow<WortdefinitionUngültigException>();
         }
@@ -47,7 +44,7 @@ namespace SpellChecker.Test
         [Fact]
         public void Tilde_darf_nur_am_Wortanfang_stehen()
         {
-            Action action = () => WörterErmittler.WörterErmitteln(new[] {"d~i~e~s~"});
+            Action action = () => new WörterErmittler().WörterErmitteln(new[] {"d~i~e~s~"});
 
             action.ShouldThrow<UngültigesWortException>();
         }
@@ -55,7 +52,7 @@ namespace SpellChecker.Test
         [Fact]
         public void Zeile_die_mit_Komma_startet_soll_Exception_werfen()
         {
-            Action action = () => WörterErmittler.WörterErmitteln(new[] {", wort"});
+            Action action = () => new WörterErmittler().WörterErmitteln(new[] {", wort"});
             action.ShouldThrow<LeeresWortInZeileException>();
         }
 
@@ -68,7 +65,7 @@ namespace SpellChecker.Test
             Exception ex = null;
             try
             {
-                WörterErmittler.WörterErmitteln(new[] { wörterbuchzeile });
+                new WörterErmittler().WörterErmitteln(new[] { wörterbuchzeile });
             }
             catch (Exception e)
             {
