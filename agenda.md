@@ -1,5 +1,6 @@
 13.01.17
-- siehe Roadmap (JS/TS)
+- TS Debugging (Source-Maps generieren mit VS ng Template)
+- Component-Tests
 
 28.10.16
 - Jana FlowDesign (evtl. Serie)
