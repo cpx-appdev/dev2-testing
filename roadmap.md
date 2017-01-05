@@ -4,7 +4,6 @@ Roadmap
 ##JS/TS
 
 - ng-cli & dotnet core
-- TS Debugging (Source-Maps generieren mit VS ng Template)
 - Component-Tests
 - Testorganisation im JS/TS-Umfeld
 - Mocking im TS-Umfeld
