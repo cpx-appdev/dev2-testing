@@ -1,10 +1,5 @@
 13.01.17
-- ng-cli & dotnet core
-- TS Debugging (Source-Maps generieren mit VS ng Template)
-- Component-Tests
-- Testorganisation im JS/TS-Umfeld
-- Mocking im TS-Umfeld
-- 
+- siehe Roadmap (JS/TS)
 
 28.10.16
 - Jana FlowDesign (evtl. Serie)
