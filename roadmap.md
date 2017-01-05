@@ -1,6 +1,15 @@
 Roadmap
 =======
 
+##JS/TS
+
+- ng-cli & dotnet core
+- TS Debugging (Source-Maps generieren mit VS ng Template)
+- Component-Tests
+- Testorganisation im JS/TS-Umfeld
+- Mocking im TS-Umfeld
+
+
  - **Grundlagen Unit Testing**
   - Definition Unit Test
   - Abgrenzung zu Integration Tests
