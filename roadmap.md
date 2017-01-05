@@ -4,7 +4,6 @@ Roadmap
 ##JS/TS
 
 - ng-cli & dotnet core
-- Component-Tests
 - Testorganisation im JS/TS-Umfeld
 - Mocking im TS-Umfeld
 
